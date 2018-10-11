@@ -12,6 +12,9 @@
 		CEF00A95216F450C006B853C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF00A94216F450C006B853C /* Assets.xcassets */; };
 		CEF00A98216F450C006B853C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF00A96216F450C006B853C /* LaunchScreen.storyboard */; };
 		CEF00AA2216F459D006B853C /* TwoViewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF00AA1216F459D006B853C /* TwoViewsController.swift */; };
+		CEF00AA4216F85E2006B853C /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF00AA3216F85E2006B853C /* LeftTableViewController.swift */; };
+		CEF00AA6216F87EB006B853C /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF00AA5216F87EB006B853C /* RightViewController.swift */; };
+		CEF00AA8216F8A91006B853C /* Typedefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF00AA7216F8A91006B853C /* Typedefs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CEF00A97216F450C006B853C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF00A99216F450C006B853C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF00AA1216F459D006B853C /* TwoViewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewsController.swift; sourceTree = "<group>"; };
+		CEF00AA3216F85E2006B853C /* LeftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
+		CEF00AA5216F87EB006B853C /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		CEF00AA7216F8A91006B853C /* Typedefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typedefs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,10 @@
 		CEF00A8C216F450A006B853C /* DamnedHamburgerMenuSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEF00AA7216F8A91006B853C /* Typedefs.swift */,
 				CEF00AA1216F459D006B853C /* TwoViewsController.swift */,
+				CEF00AA3216F85E2006B853C /* LeftTableViewController.swift */,
+				CEF00AA5216F87EB006B853C /* RightViewController.swift */,
 				CEF00A8D216F450A006B853C /* AppDelegate.swift */,
 				CEF00A91216F450A006B853C /* Main.storyboard */,
 				CEF00A94216F450C006B853C /* Assets.xcassets */,
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF00AA2216F459D006B853C /* TwoViewsController.swift in Sources */,
+				CEF00AA6216F87EB006B853C /* RightViewController.swift in Sources */,
+				CEF00AA4216F85E2006B853C /* LeftTableViewController.swift in Sources */,
+				CEF00AA8216F8A91006B853C /* Typedefs.swift in Sources */,
 				CEF00A8E216F450A006B853C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
